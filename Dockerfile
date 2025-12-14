@@ -1,5 +1,5 @@
 # Nouveau : Version slim légère (basée sur Debian)
-FROM eclipse-temurin:21-jdk-slim
+FROM eclipse-temurin:21-jdk
 
 # Créer un répertoire de travail
 WORKDIR /app
