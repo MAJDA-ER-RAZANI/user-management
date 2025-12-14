@@ -1,5 +1,5 @@
-# Utiliser Eclipse Temurin (Adoptium) JDK 21
-FROM eclipse-temurin:21-jdk
+# Nouveau : Version slim légère (basée sur Debian)
+FROM eclipse-temurin:21-jdk-slim
 
 # Créer un répertoire de travail
 WORKDIR /app
