@@ -1,5 +1,5 @@
-# Utiliser une image de base OpenJDK
-FROM openjdk:21-jdk
+# Utiliser Eclipse Temurin (Adoptium) JDK 21
+FROM eclipse-temurin:21-jdk
 
 # Créer un répertoire de travail
 WORKDIR /app
