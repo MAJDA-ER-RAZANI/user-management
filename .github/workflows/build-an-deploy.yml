@@ -8,7 +8,7 @@ on:
 jobs:
   build-and-deploy:
     name: Build, Analyze, Docker Build & Push, Deploy to Kubernetes
-    runs-on: self-hosted   # Votre runner local auto-hébergé
+    runs-on: self-hosted   
 
     steps:
       # 1. Checkout du code
