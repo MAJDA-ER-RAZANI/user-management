@@ -45,7 +45,7 @@ jobs:
         #          echo "MAVEN_HOME=$HOME/maven" >> $GITHUB_ENV
         #          echo "$HOME/maven/bin" >> $GITHUB_PATH
 
-        # Build and SonarQube analysis
+     
       - name: Build and analyze
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
